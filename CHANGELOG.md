@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- MCP_GUIDE.md: connect `https://www.supdropshipping.com/mcp` as a remote MCP server with browser sign-in (OAuth), no install
+
 ## 0.2.0
 
 - Browser sign-in: `ai_api_request.sh login` / `ai_api_request.ps1 login` connect an account without copying a key

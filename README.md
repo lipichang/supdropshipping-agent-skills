@@ -28,6 +28,10 @@ See [QUICK_START.md](./QUICK_START.md).
 
 Short version: run the installer, restart your AI tool, ask it to "connect to my SUP Dropshipping account", click **Allow** in the browser, then ask your first question.
 
+## MCP Server (no install)
+
+Prefer not to install anything? Add `https://www.supdropshipping.com/mcp` as a remote MCP server in Claude, ChatGPT, Claude Code, Codex, Cursor, VS Code or Gemini CLI, and sign in in the browser. See [MCP_GUIDE.md](./MCP_GUIDE.md).
+
 ## User Guide
 
 See [USER_GUIDE.md](./USER_GUIDE.md) for the full walkthrough: connecting your account, what you can ask, example conversations, managing the connection, and troubleshooting.

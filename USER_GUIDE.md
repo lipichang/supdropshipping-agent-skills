@@ -4,6 +4,8 @@ This guide walks you through using your AI tool with your SUP Dropshipping accou
 
 If you have not installed the skills yet, start with [QUICK_START.md](./QUICK_START.md), then come back here.
 
+Using the MCP server instead of the skills? Follow [MCP_GUIDE.md](./MCP_GUIDE.md) to connect. Sections 4 to 7 of this guide (what to ask, walkthroughs, tips) apply to both.
+
 ## Contents
 
 1. [Before you start](#1-before-you-start)
