@@ -57,7 +57,7 @@ https://www.supdropshipping.com/mcp
 - **Claude（Web / デスクトップ / モバイル）**：コネクタ設定で「カスタムコネクタを追加」を選び、名前に `SUP Dropshipping`、URL に上記のアドレスを入力します。Client ID と Secret は空欄のまま接続し、承認します。
 - **Claude Code**：`claude mcp add --transport http sup-dropshipping https://www.supdropshipping.com/mcp` を実行し、Claude Code で `/mcp` → `sup-dropshipping` → **Authenticate** を選びます。
 - **Codex CLI**：`codex mcp add sup-dropshipping --url https://www.supdropshipping.com/mcp` の後に `codex mcp login sup-dropshipping` を実行します。
-- **Cursor / VS Code / Gemini CLI / ChatGPT など**：[MCP_GUIDE.md](./MCP_GUIDE.md) または [www.supdropshipping.com/ai/mcp](https://www.supdropshipping.com/ai/mcp) を参照してください。
+- **ChatGPT、Cursor、VS Code、Windsurf、Zed、Cline、Kiro、OpenCode、Gemini CLI など**：[MCP_GUIDE.md](./MCP_GUIDE.md) または [www.supdropshipping.com/ai/mcp](https://www.supdropshipping.com/ai/mcp) を参照してください。
 
 ## 質問の例
 

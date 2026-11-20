@@ -32,7 +32,7 @@ Short version: run the installer, restart your AI tool, ask it to "connect to my
 
 ## MCP Server (no install)
 
-Prefer not to install anything? Add `https://www.supdropshipping.com/mcp` as a remote MCP server in Claude, ChatGPT, Claude Code, Codex, Cursor, VS Code or Gemini CLI, and sign in in the browser. See [MCP_GUIDE.md](./MCP_GUIDE.md).
+Prefer not to install anything? Add `https://www.supdropshipping.com/mcp` as a remote MCP server in Claude, ChatGPT, Claude Code, Codex, Cursor, VS Code, Windsurf, Zed, Cline, Kiro, OpenCode or Gemini CLI, and sign in in the browser. See [MCP_GUIDE.md](./MCP_GUIDE.md).
 
 ## User Guide
 

@@ -57,7 +57,7 @@ https://www.supdropshipping.com/mcp
 - **Claude（网页 / 桌面 / 手机）**：在连接器设置里选择"添加自定义连接器"，名称填 `SUP Dropshipping`，粘贴上面的地址，Client ID 和 Secret 留空，然后连接并授权。
 - **Claude Code**：运行 `claude mcp add --transport http sup-dropshipping https://www.supdropshipping.com/mcp`，然后在 Claude Code 里输入 `/mcp`，选择 `sup-dropshipping` → **Authenticate**。
 - **Codex CLI**：`codex mcp add sup-dropshipping --url https://www.supdropshipping.com/mcp`，再运行 `codex mcp login sup-dropshipping`。
-- **Cursor / VS Code / Gemini CLI / ChatGPT 等**：配置方法见 [MCP_GUIDE.md](./MCP_GUIDE.md) 或 [www.supdropshipping.com/ai/mcp](https://www.supdropshipping.com/ai/mcp)。
+- **ChatGPT、Cursor、VS Code、Windsurf、Zed、Cline、Kiro、OpenCode、Gemini CLI 等**：配置方法见 [MCP_GUIDE.md](./MCP_GUIDE.md) 或 [www.supdropshipping.com/ai/mcp](https://www.supdropshipping.com/ai/mcp)。
 
 ## 可以问什么
 

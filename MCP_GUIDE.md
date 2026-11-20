@@ -12,7 +12,7 @@ https://www.supdropshipping.com/mcp
 | --- | --- | --- |
 | Install | Run the installer once per computer | Add one URL in your AI tool |
 | Sign in | `login` command, browser approval | Browser approval when the tool first connects |
-| Works in | Tools that load agent skills (Claude Code, Codex, Cursor, ...) | Any tool with remote MCP support, including Claude and ChatGPT apps |
+| Works in | Tools that load agent skills (Claude Code, Codex, Cursor, ...) | Any tool with remote MCP support: Claude, ChatGPT, Cursor, VS Code, Windsurf, Zed, Cline, Kiro, OpenCode, Gemini CLI, ... |
 | Extra guidance | Workflows and reference docs for the AI | Tool descriptions and server instructions |
 
 You can use both. They read the same data and are both read-only.
@@ -96,9 +96,99 @@ Add this to `~/.gemini/settings.json`, then run `/mcp auth sup-dropshipping`:
 }
 ```
 
-### Claude, ChatGPT and other chat apps
+### Claude (web, desktop and mobile)
 
-Open the app's connector (or custom app) settings, add a custom connector, and paste the URL. Leave any client ID and secret fields empty: the app registers itself. Availability depends on the app and your plan.
+Add a custom connector in Claude's connector settings (Customize → Connectors → Add custom connector). Name it `SUP Dropshipping`, paste the URL, leave the client ID and secret empty, then click **Connect** and approve. A connector added once is available in Claude on the web, the desktop app, the mobile apps and Cowork.
+
+### ChatGPT
+
+1. In ChatGPT on the web, turn on **Developer mode** (Settings → Apps → Advanced settings).
+2. Create an app, paste the URL, and set **Authentication** to **OAuth**. Leave the client ID and secret empty.
+3. Sign in to SUP Dropshipping and click **Allow**.
+
+Developer mode availability depends on your ChatGPT plan; read-only servers like this one work on more plans.
+
+### Windsurf
+
+Add this to `~/.codeium/windsurf/mcp_config.json` (note the key is `serverUrl`, not `url`), save, and click **Refresh** in the MCP panel. Windsurf opens the sign-in page:
+
+```json
+{
+  "mcpServers": {
+    "sup-dropshipping": {
+      "serverUrl": "https://www.supdropshipping.com/mcp"
+    }
+  }
+}
+```
+
+### Zed
+
+Open Settings → AI → MCP Servers, click **Add Server** → **Add Remote Server**, or add this to your Zed `settings.json` (Zed uses `context_servers`, not `mcpServers`):
+
+```json
+{
+  "context_servers": {
+    "sup-dropshipping": {
+      "url": "https://www.supdropshipping.com/mcp"
+    }
+  }
+}
+```
+
+### Cline
+
+In Cline, open **MCP Servers** → **Remote Servers**, enter the URL and choose Streamable HTTP, or add this to `cline_mcp_settings.json`. Set `"type": "streamableHttp"`; without it Cline uses the older SSE transport, which this server does not support.
+
+```json
+{
+  "mcpServers": {
+    "sup-dropshipping": {
+      "type": "streamableHttp",
+      "url": "https://www.supdropshipping.com/mcp"
+    }
+  }
+}
+```
+
+### Kiro
+
+Add this to `~/.kiro/settings/mcp.json` (all workspaces) or `.kiro/settings/mcp.json` (one workspace). Kiro opens the sign-in page when it connects:
+
+```json
+{
+  "mcpServers": {
+    "sup-dropshipping": {
+      "url": "https://www.supdropshipping.com/mcp"
+    }
+  }
+}
+```
+
+### OpenCode
+
+```bash
+opencode mcp add sup-dropshipping --url https://www.supdropshipping.com/mcp
+opencode mcp auth sup-dropshipping
+```
+
+Or add it to `opencode.json`:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "sup-dropshipping": {
+      "type": "remote",
+      "url": "https://www.supdropshipping.com/mcp"
+    }
+  }
+}
+```
+
+### Other tools
+
+Any tool that supports remote MCP servers over Streamable HTTP with OAuth works: add the URL and leave client ID and secret fields empty. The tool registers itself and opens the sign-in page.
 
 ## The approval page
 

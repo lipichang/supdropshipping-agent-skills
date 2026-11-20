@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- MCP_GUIDE.md: setup for Windsurf, Zed, Cline, Kiro, OpenCode, and step-by-step ChatGPT
 - Guides in Simplified Chinese, Japanese, Spanish, French, German and Brazilian Portuguese (README.<lang>.md), with a language switcher
 - MCP_GUIDE.md: connect `https://www.supdropshipping.com/mcp` as a remote MCP server with browser sign-in (OAuth), no install
 

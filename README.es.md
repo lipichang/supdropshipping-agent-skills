@@ -57,7 +57,7 @@ La primera vez que tu herramienta se conecte, abrirá una página de SUP Dropshi
 - **Claude (web, escritorio y móvil):** en la configuración de conectores, añade un conector personalizado con el nombre `SUP Dropshipping` y la URL anterior. Deja vacíos el Client ID y el Secret, conecta y aprueba.
 - **Claude Code:** ejecuta `claude mcp add --transport http sup-dropshipping https://www.supdropshipping.com/mcp` y luego, en Claude Code, `/mcp` → `sup-dropshipping` → **Authenticate**.
 - **Codex CLI:** `codex mcp add sup-dropshipping --url https://www.supdropshipping.com/mcp` y después `codex mcp login sup-dropshipping`.
-- **Cursor, VS Code, Gemini CLI, ChatGPT y otras:** consulta [MCP_GUIDE.md](./MCP_GUIDE.md) o [www.supdropshipping.com/ai/mcp](https://www.supdropshipping.com/ai/mcp).
+- **ChatGPT, Cursor, VS Code, Windsurf, Zed, Cline, Kiro, OpenCode, Gemini CLI y otras:** consulta [MCP_GUIDE.md](./MCP_GUIDE.md) o [www.supdropshipping.com/ai/mcp](https://www.supdropshipping.com/ai/mcp).
 
 ## Qué puedes preguntar
 
