@@ -1,5 +1,7 @@
 # Connect SUP Dropshipping as an MCP Server
 
+[English](./README.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [Deutsch](./README.de.md) · [Português](./README.pt-BR.md)
+
 SUP Dropshipping also runs a remote MCP server. Any AI tool that supports remote MCP servers can connect to it directly, without installing the skills. You sign in with your SUP Dropshipping account in the browser; there is no key to copy.
 
 ```

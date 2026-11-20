@@ -1,5 +1,7 @@
 # SUP Dropshipping Agent Skills
 
+[English](./README.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [Deutsch](./README.de.md) · [Português](./README.pt-BR.md)
+
 Agent skills for the SUP Dropshipping read-only AI API.
 
 Install this pack into a local AI coding tool (Claude Code, Codex, and others) and ask about your SUP Dropshipping account in plain language: orders, costs, tracking, connected products, private inventory, wallet history, invoices, and sourcing requests.

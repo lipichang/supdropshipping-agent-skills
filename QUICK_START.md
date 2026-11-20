@@ -1,5 +1,7 @@
 # SUP Dropshipping AI Quick Start
 
+[English](./README.md) · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [Deutsch](./README.de.md) · [Português](./README.pt-BR.md)
+
 This guide gets a local AI tool talking to your SUP Dropshipping account through the read-only AI API.
 
 ## 1. What You Need
