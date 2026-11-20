@@ -16,13 +16,13 @@ You do not need `git` or `npm`.
 macOS/Linux:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_ORG/supdropshipping-agent-skills/main/install.sh | SUP_AGENT_SKILLS_OWNER=YOUR_GITHUB_ORG sh
+curl -fsSL https://raw.githubusercontent.com/lipichang/supdropshipping-agent-skills/main/install.sh | sh
 ```
 
 Windows PowerShell:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$env:SUP_AGENT_SKILLS_OWNER='YOUR_GITHUB_ORG'; [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12; & ([scriptblock]::Create((Invoke-RestMethod 'https://raw.githubusercontent.com/YOUR_GITHUB_ORG/supdropshipping-agent-skills/main/install.ps1')))"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12; & ([scriptblock]::Create((Invoke-RestMethod 'https://raw.githubusercontent.com/lipichang/supdropshipping-agent-skills/main/install.ps1')))"
 ```
 
 If you downloaded the package instead, run `sh install.sh`, or on Windows `install.cmd`, from the unpacked folder.

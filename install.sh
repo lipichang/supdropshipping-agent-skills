@@ -4,7 +4,7 @@
 # each AI tool detected under the current user's home directory.
 set -eu
 
-REPO_OWNER="${SUP_AGENT_SKILLS_OWNER:-YOUR_GITHUB_ORG}"
+REPO_OWNER="${SUP_AGENT_SKILLS_OWNER:-lipichang}"
 REPO_NAME="${SUP_AGENT_SKILLS_REPO:-supdropshipping-agent-skills}"
 REPO_REF="main"
 SKILL_PREFIX="sup-dropshipping-"
@@ -98,7 +98,6 @@ locate_source() {
       return
     fi
   fi
-  [ "$REPO_OWNER" != "YOUR_GITHUB_ORG" ] || die "the GitHub owner is not configured; set SUP_AGENT_SKILLS_OWNER or use --source-dir"
   command -v unzip >/dev/null 2>&1 || die "unzip is required to install from GitHub"
   TEMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/sup-agent-skills.XXXXXX")"
   archive="$TEMP_DIR/source.zip"

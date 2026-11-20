@@ -7,7 +7,7 @@
 
 $ErrorActionPreference = 'Stop'
 
-$RepoOwner = if ($env:SUP_AGENT_SKILLS_OWNER) { $env:SUP_AGENT_SKILLS_OWNER } else { 'YOUR_GITHUB_ORG' }
+$RepoOwner = if ($env:SUP_AGENT_SKILLS_OWNER) { $env:SUP_AGENT_SKILLS_OWNER } else { 'lipichang' }
 $RepoName = if ($env:SUP_AGENT_SKILLS_REPO) { $env:SUP_AGENT_SKILLS_REPO } else { 'supdropshipping-agent-skills' }
 $SkillPrefix = 'sup-dropshipping-'
 $BackupDirName = '.supdropshipping-agent-skills-backups'
@@ -64,7 +64,6 @@ try {
     } elseif ($ScriptDir -and (Test-Path -LiteralPath (Join-Path $ScriptDir "${SkillPrefix}ai-shared\SKILL.md"))) {
         $SourceRoot = $ScriptDir
     } else {
-        if ($RepoOwner -eq 'YOUR_GITHUB_ORG') { Fail 'the GitHub owner is not configured; set SUP_AGENT_SKILLS_OWNER or use -SourceDir' }
         [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
         $TempDir = Join-Path ([System.IO.Path]::GetTempPath()) ('sup-agent-skills-' + [guid]::NewGuid().ToString('N'))
         New-Item -ItemType Directory -Path $TempDir -Force | Out-Null
