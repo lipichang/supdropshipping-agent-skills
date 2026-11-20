@@ -61,6 +61,8 @@ Good to know:
 Show me my SUP Dropshipping account summary.
 ```
 
+For a full walkthrough with more examples, see [USER_GUIDE.md](./USER_GUIDE.md).
+
 ## 5. Example Prompts
 
 ### Account summary

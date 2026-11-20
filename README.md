@@ -28,6 +28,10 @@ See [QUICK_START.md](./QUICK_START.md).
 
 Short version: run the installer, restart your AI tool, ask it to "connect to my SUP Dropshipping account", click **Allow** in the browser, then ask your first question.
 
+## User Guide
+
+See [USER_GUIDE.md](./USER_GUIDE.md) for the full walkthrough: connecting your account, what you can ask, example conversations, managing the connection, and troubleshooting.
+
 ## One-Command Install
 
 macOS/Linux:

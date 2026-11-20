@@ -6,6 +6,7 @@
 - Billing logs: `reference_number`, linked `orders`, and `balance_after`; `order_number` also finds batch payments
 - Orders and connected products keep store and shipping method names after a store is disconnected
 - Non-GET requests return a 405 JSON error
+- USER_GUIDE.md: step-by-step guide from connecting an account to everyday questions
 
 ## 0.1.0
 
